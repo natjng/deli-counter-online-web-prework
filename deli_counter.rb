@@ -12,7 +12,6 @@ def take_a_number(array, new_name)
   array.push(new_name) 
   number = array.index(new_name)
   puts "Welcome, #{new_name}. You are number #{number+1} in line."
-  #{|name, index| puts "Welcome, #{name}. You are number #{index+1} in line."}
 end
 
 def now_serving(array)

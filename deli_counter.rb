@@ -8,6 +8,7 @@ def line(array)
   end
 end
 
+#notes
 def take_a_number(array, new_name)
   array.push(new_name) 
   number = array.index(new_name)
